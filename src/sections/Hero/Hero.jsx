@@ -2,14 +2,12 @@ import styles from './HeroStyles.module.css';
 import heroImg from '../../assets/irfan.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import twitterLight from '../../assets/twitter-light.svg';
-import twitterDark from '../../assets/twitter-dark.svg';
 import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import instagramlight from '../../assets/instagram-dark-logo.svg';
-import instagramdark from '../../assets/insta-light.svg';
+import instagramLight from '../../assets/instagram-dark-logo.svg';
+import instagramDark from '../../assets/insta-light.svg';
 import CV from '../../assets/cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
@@ -46,7 +44,7 @@ function Hero() {
   </h1>
   <h2>Mechanical Engineer</h2>
   <span>
-   <a href="https://instagram.com/" target="_blank">
+   <a href="https://www.instagram.com/irfanmallick8x/" target="_blank">
      <img src={instagramIcon} alt="Instagram icon" />
   </a>
     <a href="https://github.com/" target="_blank">
